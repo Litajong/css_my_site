@@ -45,8 +45,12 @@ h1 {
   position: absolute;
   /* right: 300px;
     top: 50px; */
+<<<<<<< HEAD
   /* left: 80%; */
   right: 80px;
+=======
+  rigth: 80px;
+>>>>>>> 46e54ca5ea753b880860a80f5f62fee96098708a
   top: 100px;
 }
 
@@ -110,9 +114,12 @@ p {
     width: 100%;
   }
 }
+<<<<<<< HEAD
 /* 
 @media (max-width: 1150px) {
   .top-cloud {
     right: 80px;
   }
 } */
+=======
+>>>>>>> 46e54ca5ea753b880860a80f5f62fee96098708a
