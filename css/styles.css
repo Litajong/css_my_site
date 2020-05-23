@@ -45,7 +45,8 @@ h1 {
   position: absolute;
   /* right: 300px;
     top: 50px; */
-  left: 80%;
+  /* left: 80%; */
+  right: 80px;
   top: 100px;
 }
 
@@ -55,7 +56,7 @@ h1 {
   /* left: 300px;
     bottom: 300px; */
   right: 80%;
-  bottom: 420px;
+  top: 300px;
 }
 
 /* @media (max-width: 750px) {
@@ -69,7 +70,7 @@ h1 {
 } */
 
 .mountain {
-  width: 600px;
+  max-width: 600px;
   display: block;
   margin: 0 auto;
 }
@@ -103,3 +104,15 @@ p {
   background-color: #b2ebf2;
   border-radius: 50px;
 }
+
+@media (max-width: 600px) {
+  .mountain {
+    width: 100%;
+  }
+}
+/* 
+@media (max-width: 1150px) {
+  .top-cloud {
+    right: 80px;
+  }
+} */
