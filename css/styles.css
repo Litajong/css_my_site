@@ -14,6 +14,7 @@ h1 {
 
 .job {
   margin-top: 0px;
+  margin-bottom: 0px;
   font-family: "DM Mono", sans-serif;
   font-size: 20px;
   color: #fd9a24;
@@ -23,7 +24,16 @@ h1 {
   /* background-color: #E4F9F5; */
   background-color: #ffe083;
   position: relative;
-  padding-top: 80px;
+  padding-top: 120px;
+}
+
+.profile-img {
+  width: 80px;
+  background-color: #fafafa;
+  border-radius: 50px;
+  position: absolute;
+  left: 10%;
+  top: 40px;
 }
 
 .pro {
@@ -36,7 +46,7 @@ h1 {
   /* right: 300px;
     top: 50px; */
   left: 80%;
-  top: 50px;
+  top: 100px;
 }
 
 .bottom-cloud {
@@ -60,6 +70,8 @@ h1 {
 
 .mountain {
   width: 600px;
+  display: block;
+  margin: 0 auto;
 }
 
 h2 {
@@ -78,5 +90,16 @@ p {
 }
 
 .middle-container {
-  background-color: #ffe083;
+  background-color: #fafafa;
+  padding-top: 30px;
+}
+
+.profile {
+  padding-bottom: 20px;
+}
+
+.profile2-img {
+  width: 80px;
+  background-color: #b2ebf2;
+  border-radius: 50px;
 }
