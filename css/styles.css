@@ -1,66 +1,51 @@
-
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-family: 'Parisienne', sans-serif;
-    font-size: 80px;
-    font-weight: lighter;
-    color: #FD9A24;
-
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-family: "Parisienne", sans-serif;
+  font-size: 75px;
+  font-weight: lighter;
+  color: #fd9a24;
 }
 
-p {
-    margin-top: 0px;
-    font-family: 'DM Mono', sans-serif;
-    font-size: 18px;
-    color: #FD9A24;
+.job {
+  margin-top: 0px;
+  font-family: "DM Mono", sans-serif;
+  font-size: 20px;
+  color: #fd9a24;
 }
 
 .top-container {
-    /* background-color: #E4F9F5; */
-    background-color: #FFE083;
-    position: relative;
-    padding-top: 80px;
+  /* background-color: #E4F9F5; */
+  background-color: #ffe083;
+  position: relative;
+  padding-top: 80px;
 }
 
-.middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;  
-
-}
-
-.bottom-container {
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-}
-
-.freelance {
-    text-decoration: underline;
+.pro {
+  text-decoration: underline;
 }
 
 .top-cloud {
-    width: 150px;
-    position: absolute;
-    /* right: 300px;
+  width: 150px;
+  position: absolute;
+  /* right: 300px;
     top: 50px; */
-    left: 80%;
-    top: 50px;
+  left: 80%;
+  top: 50px;
 }
 
 .bottom-cloud {
-    width: 120px;
-    position: absolute;
-    /* left: 300px;
+  width: 120px;
+  position: absolute;
+  /* left: 300px;
     bottom: 300px; */
-    right: 80%;
-    bottom: 420px;
+  right: 80%;
+  bottom: 420px;
 }
 
 /* @media (max-width: 750px) {
@@ -74,5 +59,24 @@ p {
 } */
 
 .mountain {
-    width: 600px;
+  width: 600px;
+}
+
+h2 {
+  font-family: "Baloo Chettan 2", sans-serif;
+  color: #fd9a24;
+}
+
+p {
+  font-family: "DM Mono", sans-serif;
+  font-size: 17px;
+  color: rgb(143, 138, 138);
+}
+
+.logo {
+  width: 100px;
+}
+
+.middle-container {
+  background-color: #ffe083;
 }
