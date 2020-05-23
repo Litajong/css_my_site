@@ -103,3 +103,9 @@ p {
   background-color: #b2ebf2;
   border-radius: 50px;
 }
+
+@media (max-width: 600px) {
+  .mountain {
+    width: 100%;
+  }
+}
