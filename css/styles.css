@@ -82,12 +82,15 @@ h2 {
 
 p {
   font-family: "DM Mono", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   color: rgb(143, 138, 138);
+  line-height: 2;
 }
 
 .logo {
-  width: 100px;
+  width: 70px;
+  background-color: #b2ebf2;
+  border: thick double #b2ebf2;
 }
 
 .middle-container {
@@ -110,12 +113,9 @@ p {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-/* 
-@media (max-width: 1150px) {
-  .top-cloud {
-    right: 80px;
-  }
-} */
-=======
->>>>>>> 46e54ca5ea753b880860a80f5f62fee96098708a
+
+h3 {
+  font-family: "DM Mono", sans-serif;
+  font-size: 17px;
+  color: #fd9a24;
+}
